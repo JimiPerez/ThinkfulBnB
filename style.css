@@ -31,7 +31,7 @@ section.alternate-background {
 }
 
 main img {
-  width: 100px;
+  width: 100%;
 }
 
 /* ---  Groups & Items --- */
@@ -52,16 +52,26 @@ main img {
 
 /* -------  Navigation ------- */
 
+.logo {
+  font-family: "Pangolin", cursive;
+  font-size: 72px;
+  color: #fff;
+}
+
 header {
   background-color: #ff385c;
   padding: 20px 20px 0 20px;
   text-align: center;
 }
 
-.logo {
-  font-family: "Pangolin", cursive;
-  font-size: 72px;
-  color: #fff;
+header nav {
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul {
+  display: flex;
+  padding-left: 0;
 }
 
 header nav ul li {
@@ -117,3 +127,6 @@ footer p {
 }
 
 /* -------  Media Query ------- */
+@media all and (min-width: 768px) {
+
+}
