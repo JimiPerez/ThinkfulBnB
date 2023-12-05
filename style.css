@@ -91,18 +91,22 @@ header nav ul li a:hover {
 
 /* -------  Search Form ------- */
 form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   border: 2px solid #ff385c;
   padding: 10px;
+}  
+  
+form select,
+form input {
+  margin-bottom: 20px;
+  width: 65%;
+  float: right;
 }
 
 form label {
   font-weight: bold;
-}
-
-form select,
-form input {
-  margin-bottom: 20px;
-  width: 180px;
 }
 
 form button {
