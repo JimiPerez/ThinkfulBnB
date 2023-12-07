@@ -44,7 +44,6 @@ main img {
 .item {
   flex: 1;
   margin: 10px;
-  align-self: center;
 }
 
 .item-double {
@@ -105,7 +104,6 @@ form select,
 form input {
   margin-bottom: 20px;
   width: 65%;
-  float: right;
 }
 
 form label {
@@ -119,6 +117,11 @@ form button {
   font-size: 24px;
   padding: 15px;
   width: 100%;
+}
+
+form .item {
+  display: flex;
+  justify-content: space-between;
 }
 
 /* -------  Footer ------- */
@@ -162,5 +165,6 @@ footer p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
   }
 }
